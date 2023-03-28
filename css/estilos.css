@@ -11,6 +11,14 @@
     float: left;
     height: 60px;
 }
+
+.headerAutos{
+    background-color: turquoise;
+    width: 100%;
+    float: left;
+    height: 60px;
+
+}
 .footer{
     background-color: rgb(10, 10, 10);
     color: #fff;
@@ -37,4 +45,75 @@
     width: 100%;
     float: left;
     height: 538px;
+}
+
+
+.footerAutos{
+
+
+    background-color:   white;
+    width: 100%;
+    float: left;
+    height: 40px;
+    
+    }
+.menu{
+
+    background-color: blueviolet;
+    width: 25%;
+    float: left;
+}
+.menuAutos{
+
+    background-color: white;
+    width: 25%;
+    float: left;
+}
+.dashbord{
+
+    background-color: blue;
+    width: 50%;
+    float: left;
+}
+.rss{
+
+    background-color: brown;
+    width: 25%;
+    float: left;
+}
+.Main{
+
+    background-color: aqua;
+    width: 100%;
+    float: left;
+    height: 300px;
+    
+}
+
+
+.headerContactos{
+
+color: whitesmoke;
+background-color: black;
+margin-left: 40%;
+margin-right: 40%;
+
+
+}
+.contactosfooter{
+
+
+    background-color: burlywood;
+    width: 100%;
+    float: left;
+    height: 40px;
+    
+}
+    
+    
+.contactosbody{
+
+        height: 610px;
+        color: grey;
+
 }
