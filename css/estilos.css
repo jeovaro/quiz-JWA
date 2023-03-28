@@ -11,6 +11,14 @@
     float: left;
     height: 60px;
 }
+
+.headerAutos{
+    background-color: turquoise;
+    width: 100%;
+    float: left;
+    height: 60px;
+
+}
 .footer{
 
 
@@ -20,9 +28,24 @@ float: left;
 height: 40px;
 
 }
+.footerAutos{
+
+
+    background-color:   white;
+    width: 100%;
+    float: left;
+    height: 40px;
+    
+    }
 .menu{
 
     background-color: blueviolet;
+    width: 25%;
+    float: left;
+}
+.menuAutos{
+
+    background-color: white;
     width: 25%;
     float: left;
 }
@@ -46,3 +69,4 @@ height: 40px;
     height: 300px;
     
 }
+
