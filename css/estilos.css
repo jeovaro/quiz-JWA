@@ -5,30 +5,144 @@
 
 .header{
     background-color: rgb(10, 10, 10);
-    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.header h1{
+    margin: 10px;
+}
+
+.header a{
+    text-decoration: none;
     color: #fff;
-    width: 100%;
-    float: left;
-    height: 60px;
 }
 
-.headerAutos{
-    background-color: turquoise;
-    width: 100%;
-    float: left;
-    height: 60px;
-
-}
 .footer{
     background-color: rgb(10, 10, 10);
     color: #fff;
     width: 100%;
     float: left;
+    text-align: center;
     height: 40px;
 }
+
 .menu{
-    background-color: blueviolet;
+    background-color: rgb(69, 69, 70);
     width: 100%;
+    display: inline-block;
+}
+
+.dashboard{
+    width: 100%;
+    float: top;
+}
+
+.dashboard img{
+    width: 100%;
+    height: 100%;
+}
+
+.rss{
+    width: 100%;
+    float: top;
+    text-align: center;
+    height: 350px;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+
+.list{
+    list-style: none;
+    display: inline;
+    margin: 3px;
+    padding-right: 15px;
+    float: left;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.list :hover{
+    color: #3207f1;
+}
+
+.img{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+
+.footer-logo{
+    float: left;
+}
+
+.footer-logo h2{
+    margin: 6px;
+    padding-left: 10px;
+}
+
+.footer-lema{
+    display: inline-block;
+}
+
+.footer-lema p{
+    margin: 10px;
+}
+
+.footer-copy{
+    float: right;
+}
+
+.footer-copy p{
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.rss-compra-auto{
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.rss-compra-motor{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.rss-contactanos{
+    float: right;
+    padding-right: 10px;
+}
+
+.rss img{
+    width: 240px;
+    height: 250px;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rss p{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rss a{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+/* ******************************************** */
+.mainAutos{
     float: left;
 }
 
@@ -39,105 +153,22 @@
     float: left;
     border-style: dotted;
 }
-.rss{
-    background-color: brown;
-    width: 100%;
-    float: left;
-}
-.main{
-    width: 100%;
-    float: left;
-    height: 538px;
-}
 
-
-.footerAutos{
-
-
-    background-color:   white;
-    width: 100%;
-    float: left;
-    height: 40px;
-    
-    }
-.menu{
-
-    background-color: blueviolet;
-    width: 25%;
-    float: left;
-}
-.menuAutos{
-
-    background-color: white;
-    width: 25%;
-    float: left;
-}
-.dashbord{
-
-    background-color: blue;
-    width: 50%;
-    float: left;
-}
-.rss{
-
-    background-color: brown;
-    width: 25%;
-    float: left;
-}
-.Main{
-
-    background-color: aqua;
-    width: 100%;
-    float: left;
-    height: 300px;
-    
-}
-
-
-.headerContactos{
-
-color: whitesmoke;
-background-color: black;
-margin-left: 40%;
-margin-right: 40%;
-font-size: large;
-
-
-}
-.contactosfooter{
-
-
-    background-color: burlywood;
-    width: 100%;
-    float: left;
-    height: 40px;
-    
-}
-    
-    
+/* ******************************************** */    
 .contactosbody{
+    float: left;
+    height: 760px;
+    color: grey;
+    font-size: large;
+}
 
-        height: 760px;
-        color: grey;
-        font-size: large;
-
+.contactosbody h1{
+    color: black;
 }
 
 .textoNosotros{
-
-font-size: x-large;
-color: gray;
-height: 650px;
-
-}
-
-.nosotrosfooter{
-
-
-    background-color:gray;
-    width: 100%;
-    float: left;
-    height: 40px;
-    
+    font-size: x-large;
+    color: gray;
+    height: 650px;
 }
 
