@@ -122,3 +122,22 @@ font-size: large;
         font-size: large;
 
 }
+
+.textoNosotros{
+
+font-size: x-large;
+color: gray;
+height: 650px;
+
+}
+
+.nosotrosfooter{
+
+
+    background-color:gray;
+    width: 100%;
+    float: left;
+    height: 40px;
+    
+}
+
