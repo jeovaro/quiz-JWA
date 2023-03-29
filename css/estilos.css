@@ -29,17 +29,20 @@
 .menu{
     background-color: blueviolet;
     width: 100%;
-    float: top;
+    float: left;
 }
-.dashbord{
-    background-color: blue;
-    width: 100%;
-    float: top;
+
+.imgAutos{
+    background-color: white;
+    height: 250px;
+    width: 25%;
+    float: left;
+    border-style: dotted;
 }
 .rss{
     background-color: brown;
     width: 100%;
-    float: top;
+    float: left;
 }
 .main{
     width: 100%;
