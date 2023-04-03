@@ -1,7 +1,11 @@
+/* Waldin Obando Muñoz - B95646 */
+
 *{
     box-sizing: border-box;
     text-align: center;
 }
+
+/* header */
 
 .header{
     background-color: rgb(10, 10, 10);
@@ -18,47 +22,24 @@
     color: #fff;
 }
 
-.footer{
-    background-color: rgb(10, 10, 10);
-    color: #fff;
-    width: 100%;
-    float: left;
-    text-align: center;
-    height: 40px;
-}
+/* menu */
 
 .menu{
     background-color: rgb(69, 69, 70);
     width: 100%;
-    display: inline-block;
-}
-
-.dashboard{
-    width: 100%;
-    float: top;
-}
-
-.dashboard img{
-    width: 100%;
-    height: 100%;
-}
-
-.rss{
-    width: 100%;
-    float: top;
-    text-align: center;
-    height: 350px;
-}
-.main{
-    width: 100%;
     float: left;
+    font-size: 14px;
+}
+
+.menu-icons{
+    padding-right: 15px;
 }
 
 .list{
     list-style: none;
     display: inline;
-    margin: 3px;
-    padding-right: 15px;
+    padding-right: 10px;
+    padding-top: 2px;
     float: left;
 }
 
@@ -72,75 +53,102 @@
 }
 
 .img{
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     float: right;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 13px;
 }
 
-.footer-logo{
+/* main */
+
+.main{
+    width: 100%;
+    float: left;
+    /* height: 1400px; */
+}
+
+.dashboard{
+    width: 100%;
     float: left;
 }
 
-.footer-logo h2{
-    margin: 6px;
-    padding-left: 10px;
+.dashboard img{
+    width: 100%;
 }
 
-.footer-lema{
-    display: inline-block;
-}
+/* rss */
 
-.footer-lema p{
-    margin: 10px;
-}
-
-.footer-copy{
-    float: right;
-}
-
-.footer-copy p{
-    margin: 10px;
-    padding-right: 10px;
+.rss{
+    width: 100%;
+    float: left;
 }
 
 .rss-compra-auto{
-    padding-right: 10px;
+    padding-right: 8px;
     display: inline-block;
 }
 
 .rss-compra-motor{
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 .rss-contactanos{
-    float: right;
-    padding-right: 10px;
+    display: inline-block;
+    padding-right: 8px;
 }
 
 .rss img{
-    width: 240px;
+    width: 235px;
     height: 250px;
     display: block;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 .rss p{
     display: block;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .rss a{
     display: block;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-bottom: 10px;
 }
+
+/* footer */
+
+.footer{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+}
+
+.footer-logo{
+    float: left;
+    padding-left: 8px;
+}
+
+.footer-lema{
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.footer-copy{
+    float: right;
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+
 /* ******************************************** */
 .mainAutos{
     float: left;
@@ -151,7 +159,33 @@
     height: 250px;
     width: 25%;
     float: left;
-  
+}
+
+.imgAutos img{
+    width: 190px;
+}
+
+/* ******************************************** */
+
+.mainMotores{
+    background-color: white;
+    float: left;
+    width: 100%;
+}
+
+.imgMotores{
+    float: left;
+    padding: 40px;
+    margin-left: 5px;
+}
+
+.imgMotores img{
+    width: auto;
+    height: auto;
+}
+
+.t{
+    float: left;
 }
 
 /* ******************************************** */    
@@ -164,6 +198,12 @@
 
 .contactosbody h1{
     color: black;
+}
+
+/* ******************************************** */
+
+.nosotros{
+    float: left;
 }
 
 .textoNosotros{
