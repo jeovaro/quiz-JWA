@@ -215,4 +215,7 @@ Jeremy Ovares Roig - B85826
     color: gray;
     height: 650px;
 }
-
+.imagenContactos{
+    width: 450px  !important;
+    height: 350px !important;
+}
